@@ -27,7 +27,6 @@ header span {
   left: 0;
   /* background: #f1a263c9; */
   position: relative;
-  /* top: 75px; */
   width: 100%;
   z-index: 1000;
 }
@@ -59,9 +58,6 @@ header span {
 }
 
 .bg-card-1 {
-  /* background-image: url("../images/bg-1.png"); */
-  /* background-repeat: repeat-repeat-y; */
-  /* height: 100%; */
   width: 3000px;
   z-index: 100;
 }
@@ -94,9 +90,7 @@ header span {
   overflow-x: scroll;
   overflow-y: scroll;
   position: relative;
-  /* top: 175px; */
   white-space: nowrap;
-  /* width: 12700px; */
   z-index: 1500;
 }
 
@@ -108,7 +102,6 @@ header span {
   /* background-color: #4d9fd0e0; */
   display: inline-block;
   position: absolute;
-  /* width: 100%; */
 }
 
 .description {
