@@ -1,0 +1,321 @@
+html, body {
+  color: #333333;
+  font-family: 微軟正黑體, Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #404040;
+  color: #F2F2F2;
+  left: 0;
+  padding: 20px 0;
+  position: relative;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header span {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.title {
+  left: 0;
+  /* background: #f1a263c9; */
+  position: relative;
+  /* top: 75px; */
+  width: 100%;
+  z-index: 1000;
+}
+
+.title h1 {
+  margin: 35px 50px;
+}
+
+.title small {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.title .bg-music-link {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-color: transparent;
+  border-radius: 0;
+  color: #0088cc;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 0;
+}
+
+.bg-card {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+}
+
+.bg-card-1 {
+  /* background-image: url("../images/bg-1.png"); */
+  /* background-repeat: repeat-repeat-y; */
+  /* height: 100%; */
+  width: 3000px;
+  z-index: 100;
+}
+
+.bg-card-2 {
+  width: 4000px;
+  z-index: 500;
+}
+
+.bg-arrows {
+  display: block;
+  left: 50%;
+  position: fixed;
+  top: 725px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.bg-music-link, .bg-music-link:active, .bg-music-link[disabled] {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+}
+
+.horizontal-wrapper {
+  /* background-color: #FFFFAA; */
+  height: 650px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  position: relative;
+  /* top: 175px; */
+  white-space: nowrap;
+  /* width: 12700px; */
+  z-index: 1500;
+}
+
+.horizontal-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontal-wrapper .story {
+  /* background-color: #4d9fd0e0; */
+  display: inline-block;
+  position: absolute;
+  /* width: 100%; */
+}
+
+.description {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px #eee solid;
+  display: inline-block;
+  padding: 10px 25px;
+  position: absolute;
+  vertical-align: top;
+  white-space: normal;
+  width: 500px;
+  z-index: 2000;
+}
+
+.description h2 {
+  border-bottom: 1px #ccc solid;
+  padding-bottom: 9px;
+}
+
+.photo {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 3px rgba(255, 255, 255, 0.9) solid;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  width: 480px;
+  z-index: 1500;
+}
+
+.photo img {
+  max-width: 100%;
+}
+
+.vphoto {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 3px rgba(255, 255, 255, 0.9) solid;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 300px;
+  z-index: 1500;
+}
+
+.vphoto img {
+  max-width: 100%;
+}
+
+.m1 .description {
+  left: 75px;
+  top: 50px;
+}
+
+.m1 .photo1 {
+  left: 700px;
+  top: 170px;
+}
+
+.m2 .description {
+  left: 1280px;
+  top: 15px;
+}
+
+.m2 .photo1 {
+  left: 1700px;
+  top: 10px;
+}
+
+.m2 .photo2 {
+  left: 1450px;
+  top: 130px;
+}
+
+.m3 .description {
+  left: 2300px;
+  top: 260px;
+}
+
+.m3 .photo1 {
+  left: 2700px;
+  top: 5px;
+}
+
+.m3 .photo2 {
+  left: 2500px;
+  top: 15px;
+  width: 250px;
+}
+
+.m4 .description {
+  left: 3330px;
+  top: 0;
+}
+
+.m4 .photo1 {
+  left: 3280px;
+  top: 165px;
+}
+
+.m4 .photo2 {
+  left: 3760px;
+  top: 120px;
+  z-index: 1499;
+}
+
+.m5 .description {
+  left: 4280px;
+  top: 350px;
+}
+
+.m5 .photo1 {
+  left: 4350px;
+  top: 20px;
+}
+
+.m5 .photo2 {
+  left: 4800px;
+  top: 180px;
+}
+
+.m6 .description {
+  left: 5610px;
+  top: 0px;
+}
+
+.m6 .photo1 {
+  left: 5230px;
+  top: 10px;
+}
+
+.m6 .photo2 {
+  left: 5580px;
+  top: 210px;
+}
+
+.m7 .description {
+  left: 6250px;
+  top: 110px;
+}
+
+.m7 .photo1 {
+  left: 6750px;
+  top: 30px;
+}
+
+.m8 .description {
+  left: 7475px;
+  top: 5px;
+}
+
+.m8 .photo1 {
+  left: 7350px;
+  top: 180px;
+}
+
+.m9 .description {
+  left: 8155px;
+  top: 10px;
+}
+
+.m9 .photo1 {
+  left: 8210px;
+  top: 275px;
+}
+
+.m9 .photo2 {
+  left: 8675px;
+  top: 0px;
+}
+
+.m10 .description {
+  left: 9110px;
+  top: 320px;
+}
+
+.m10 .photo1 {
+  left: 9260px;
+  top: 0px;
+}
+
+.m11 .description {
+  left: 9910px;
+}
+
+.m11 .photo1 {
+  left: 10470px;
+}
+
+.m11 .photo2 {
+  left: 9810px;
+  top: 200px;
+}
+
+.m11 .photo3 {
+  left: 10110px;
+  top: 200px;
+}
+
+.m12 .description {
+  left: 11010px;
+  top: 140px;
+}
+
+.m12 .photo1 {
+  left: 11550px;
+  top: 50px;
+}
+
+.end .description {
+  left: 12000px;
+}
