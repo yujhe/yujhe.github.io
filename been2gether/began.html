@@ -17,9 +17,9 @@
 
 <body>
   <header>
-    <span style="float: left; margin-left: 5px;">。貳零壹叁。</span>
+    <span style="float: left; margin-left: 5px;"><a href="#left">。貳零壹叁。</a></span>
     <span>&#128119;&#127995; 哲哲 <span style='font-size:1.5em;'>&</span> 西路 &#128587;&#127995;</span>
-    <span style="float: right; margin-right: 5px;">。貳零壹肆。</span>
+    <span style="float: right; margin-right: 5px;"><a href="#right">。貳零壹肆。</a></span>
   </header>
 
   <div class="title">
@@ -246,6 +246,20 @@
   </div>
 
   <script type="text/javascript">
+    $("a[href='#left']").click(function() {
+      $(".horizontal-wrapper").animate({
+        scrollLeft: 0
+      }, "slow");
+      return false;
+    });
+
+    $("a[href='#right']").click(function() {
+      $(".horizontal-wrapper").animate({
+        scrollLeft: 12700
+      }, "slow");
+      return false;
+    });
+
     (function($) {
       $.jScroll(
         ['.bg-scroll'], // an array containing the selector(s) for the elements you want to animate

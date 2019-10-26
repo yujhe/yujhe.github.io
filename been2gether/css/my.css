@@ -23,6 +23,18 @@ header span {
   font-weight: bold;
 }
 
+header span a {
+  color: inherit;
+}
+
+header span a:link, header span a:visited {
+  text-decoration: none;
+}
+
+header span a:hover, header span a:active {
+  text-decoration: underline;
+}
+
 .title {
   left: 0;
   /* background: #f1a263c9; */
