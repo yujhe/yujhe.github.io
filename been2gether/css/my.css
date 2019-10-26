@@ -23,15 +23,15 @@ header span {
   font-weight: bold;
 }
 
-header span a {
-  color: inherit;
+header .scroll-link {
+  color: #F2F2F2;
 }
 
-header span a:link, header span a:visited {
+header .scroll-link:link, header .scroll-link:visited {
   text-decoration: none;
 }
 
-header span a:hover, header span a:active {
+header .scroll-link:hover, header .scroll-link:active {
   text-decoration: underline;
 }
 
