@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="YJ :heart: Lucy in 2019" />
+  <meta name="keywords" content="yujhe, lucy, been2gether, 2019" />
+  <meta name="author" content="yujhe" />
+  <link rel="icon" id="favicon" href="images/favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <title>2019 Been2gether</title>
+  <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="js/jquery.jScroll.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/y2019_stories.css">
+  <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
+</head>
+
+<body>
+  <header>
+    <span style="float: left; margin-left: 15px;"><a class="scroll-link" href="#left">貳零壹肆</a></span>
+    <span>&#128119;&#127995; 哲哲 <span style='font-size:1.5em;'>&</span> 西路 &#128587;&#127995;</span>
+    <span style="float: right; margin-right: 15px;"><a class="scroll-link" href="#right">貳零壹玖</a></span>
+  </header>
+
+  <div class="title">
+    <h1>後續－關於哲哲和西路。 <small>How Long Will I Love You from Ellie Goulding: </small><button type="button" class="bg-music-link" id="bg-music-link" onclick="playMusic();">play();</button></h1>
+    <audio loop autoplay>
+      <source src="mp3/how_long_will_i_love_you.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="bg-card bg-card-1 bg-scroll">
+    <img src="images/bg2.png" alt="" />
+  </div>
+  <div class="bg-card bg-card-2 bg-scroll">
+    <img src="images/bg2_front.png" alt="" />
+  </div>
+
+  <div class="bg-arrows">
+    <span><img src="images/left_arrow.png" /></span>
+    <span><img src="images/right_arrow.png" /></span>
+  </div>
+
+  <div class="horizontal-wrapper">
+  </div>
+
+  <script type="text/javascript">
+    $("a[href='#left']").click(function() {
+      $(".horizontal-wrapper").animate({
+        scrollLeft: 0
+      }, "slow");
+      return false;
+    });
+
+    $("a[href='#right']").click(function() {
+      $(".horizontal-wrapper").animate({
+        scrollLeft: 12700
+      }, "slow");
+      return false;
+    });
+
+    (function($) {
+      $.jScroll(
+        ['.bg-scroll'], // an array containing the selector(s) for the elements you want to animate
+        '.horizontal-wrapper', // the selector for detecting scroll event
+        12700 // the longest width that user could scroll
+      );
+    }(jQuery));
+
+    var audio = document.getElementsByTagName('audio')[0];
+    audio.oncanplay = function() {
+      audio.volume = 0.7;
+      if (!audio.paused)
+        document.getElementById('bg-music-link').innerHTML = "pause();";
+    };
+
+    function playMusic() {
+      if (audio.paused) {
+        document.getElementById('bg-music-link').innerHTML = "pause();";
+        audio.play();
+      } else {
+        document.getElementById('bg-music-link').innerHTML = "play();";
+        audio.pause();
+      }
+    }
+
+    /* keyboard: Play & Pause */
+    navigator.mediaSession.setActionHandler('play', function() {
+      console.log('> User clicked "Play" icon.');
+      playMusic()
+    });
+
+    navigator.mediaSession.setActionHandler('pause', function() {
+      console.log('> User clicked "Pause" icon.');
+      playMusic()
+    });
+    /* keyboard: Stop (supported since Chrome 77) */
+    try {
+      navigator.mediaSession.setActionHandler('stop', function() {
+        console.log('> User clicked "Stop" icon.');
+        playMusic()
+      });
+    } catch (error) {
+      console.log('Warning! The "stop" media session action is not supported.');
+    }
+
+  </script>
+
+</body>
+
+</html>

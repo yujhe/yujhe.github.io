@@ -1,0 +1,163 @@
+.m1 .description {
+  left: 120px;
+  top: 0px;
+}
+
+.m1 .photo1 {
+  left: 35px;
+  top: 235px;
+}
+
+.m2 .description {
+  left: 1280px;
+  top: 15px;
+}
+
+.m2 .photo1 {
+  left: 1700px;
+  top: 10px;
+}
+
+.m2 .photo2 {
+  left: 1450px;
+  top: 130px;
+}
+
+.m3 .description {
+  left: 2300px;
+  top: 260px;
+}
+
+.m3 .photo1 {
+  left: 2700px;
+  top: 5px;
+}
+
+.m3 .photo2 {
+  left: 2500px;
+  top: 15px;
+  width: 250px;
+}
+
+.m4 .description {
+  left: 3330px;
+  top: 0;
+}
+
+.m4 .photo1 {
+  left: 3280px;
+  top: 165px;
+}
+
+.m4 .photo2 {
+  left: 3760px;
+  top: 120px;
+  z-index: 1499;
+}
+
+.m5 .description {
+  left: 4280px;
+  top: 350px;
+}
+
+.m5 .photo1 {
+  left: 4350px;
+  top: 20px;
+}
+
+.m5 .photo2 {
+  left: 4800px;
+  top: 180px;
+}
+
+.m6 .description {
+  left: 5610px;
+  top: 0px;
+}
+
+.m6 .photo1 {
+  left: 5230px;
+  top: 10px;
+}
+
+.m6 .photo2 {
+  left: 5580px;
+  top: 210px;
+}
+
+.m7 .description {
+  left: 6250px;
+  top: 110px;
+}
+
+.m7 .photo1 {
+  left: 6750px;
+  top: 30px;
+}
+
+.m8 .description {
+  left: 7475px;
+  top: 5px;
+}
+
+.m8 .photo1 {
+  left: 7350px;
+  top: 180px;
+}
+
+.m9 .description {
+  left: 8155px;
+  top: 10px;
+}
+
+.m9 .photo1 {
+  left: 8210px;
+  top: 275px;
+}
+
+.m9 .photo2 {
+  left: 8675px;
+  top: 0px;
+}
+
+.m10 .description {
+  left: 9110px;
+  top: 320px;
+}
+
+.m10 .photo1 {
+  left: 9260px;
+  top: 0px;
+}
+
+.m11 .description {
+  left: 9910px;
+}
+
+.m11 .photo1 {
+  left: 10470px;
+}
+
+.m11 .photo2 {
+  left: 9810px;
+  top: 200px;
+}
+
+.m11 .photo3 {
+  left: 10110px;
+  top: 200px;
+}
+
+.m12 .description {
+  left: 11010px;
+  top: 140px;
+}
+
+.m12 .photo1 {
+  left: 11550px;
+  top: 50px;
+}
+
+.end .description {
+  left: 12000px;
+}
