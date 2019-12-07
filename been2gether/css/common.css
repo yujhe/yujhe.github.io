@@ -99,6 +99,7 @@ header .scroll-link:hover, header .scroll-link:active {
 .horizontal-wrapper {
   /* background-color: #FFFFAA; */
   height: 1200px;
+  margin: 0 15px;
   overflow-x: scroll;
   overflow-y: scroll;
   position: relative;
