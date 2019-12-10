@@ -1,97 +1,97 @@
 .m1 .description {
-  left: 75px;
-  top: 50px;
+  left: 15px;
+  top: 10px;
 }
 
 .m1 .photo1 {
-  left: 700px;
-  top: 170px;
+  left: 610px;
+  top: 80px;
 }
 
 .m2 .description {
-  left: 1280px;
+  left: 1200px;
   top: 15px;
 }
 
 .m2 .photo1 {
-  left: 1700px;
+  left: 1620px;
   top: 10px;
 }
 
 .m2 .photo2 {
-  left: 1450px;
+  left: 1370px;
   top: 130px;
 }
 
 .m3 .description {
-  left: 2300px;
-  top: 260px;
+  left: 2220px;
+  top: 50px;
 }
 
 .m3 .photo1 {
-  left: 2700px;
-  top: 5px;
+  left: 2960px;
+  top: 30px;
 }
 
 .m3 .photo2 {
-  left: 2500px;
-  top: 15px;
+  left: 2740px;
+  top: 30px;
   width: 250px;
 }
 
 .m4 .description {
-  left: 3330px;
+  left: 3630px;
   top: 0;
 }
 
 .m4 .photo1 {
-  left: 3280px;
+  left: 3580px;
   top: 165px;
 }
 
 .m4 .photo2 {
-  left: 3760px;
+  left: 4060px;
   top: 120px;
   z-index: 1499;
 }
 
 .m5 .description {
-  left: 4280px;
+  left: 4480px;
   top: 350px;
 }
 
 .m5 .photo1 {
-  left: 4350px;
+  left: 4550px;
   top: 20px;
 }
 
 .m5 .photo2 {
-  left: 4800px;
+  left: 5000px;
   top: 180px;
 }
 
 .m6 .description {
-  left: 5610px;
+  left: 5750px;
   top: 0px;
 }
 
 .m6 .photo1 {
-  left: 5230px;
+  left: 5430px;
   top: 10px;
 }
 
 .m6 .photo2 {
-  left: 5580px;
+  left: 5780px;
   top: 210px;
 }
 
 .m7 .description {
-  left: 6250px;
+  left: 6400px;
   top: 110px;
 }
 
 .m7 .photo1 {
-  left: 6750px;
+  left: 6870px;
   top: 30px;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .m8 .photo1 {
-  left: 7350px;
+  left: 7450px;
   top: 180px;
 }
 
@@ -135,7 +135,7 @@
 }
 
 .m11 .photo1 {
-  left: 10470px;
+  left: 10500px;
 }
 
 .m11 .photo2 {
@@ -149,12 +149,12 @@
 }
 
 .m12 .description {
-  left: 11010px;
+  left: 11050px;
   top: 140px;
 }
 
 .m12 .photo1 {
-  left: 11550px;
+  left: 11640px;
   top: 50px;
 }
 
